@@ -1,8 +1,21 @@
-echo "# PW1.4" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SaraUniPeg/PW1.4.git
-git push -u origin main# PW1.4
-Digitalizzazione Impresa 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina principale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Benvenuto nella mia pagina principale</h1>
+
+    <h2>Elenco di file</h2>
+    <ul class="file-list">
+      <li><a href="elaborato/file1.txt" target="_blank">Apri file 1</a></li>
+      <li><a href="elaborato/file2.txt" target="_blank">Apri file 2</a></li>
+    </ul>
+  </div>
+</body>
+</html>
