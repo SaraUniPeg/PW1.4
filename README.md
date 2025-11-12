@@ -13,10 +13,11 @@
 
     <h2>Elenco di file</h2>
     <ul class="file-list">
-      <li><a href="\elaborato\file1.txt" target="_blank">Apri file 1</a></li>
+      <li><a href="/elaborato/file1.txt" target="_blank">Apri file 1</a></li>
       <li><a href="elaborato/file2.txt" target="_blank">Apri file 2</a></li>
     </ul>
   </div>
 </body>
 </html>
+
 
