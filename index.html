@@ -1,22 +1,211 @@
-<html lang="it">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Work 1.4</title>
-  <link rel="stylesheet" href="css\style.css">
+	<meta charset="utf-8">
+	<title>Digital Team HTML5 Layout - Tooplate</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
 </head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<body>
-  <div class="container">
-    <h1>Project Work di Sara Caruso</h1>
-    <h1>Viaggiare con i Dati: Digitalizzazione di una Compagnia Ferroviaria Indipendente</h1>
+<!-- preloader section -->
+<div class="preloader">
+	<div class="sk-spinner sk-spinner-circle">
+       <div class="sk-circle1 sk-circle"></div>
+       <div class="sk-circle2 sk-circle"></div>
+       <div class="sk-circle3 sk-circle"></div>
+       <div class="sk-circle4 sk-circle"></div>
+       <div class="sk-circle5 sk-circle"></div>
+       <div class="sk-circle6 sk-circle"></div>
+       <div class="sk-circle7 sk-circle"></div>
+       <div class="sk-circle8 sk-circle"></div>
+       <div class="sk-circle9 sk-circle"></div>
+       <div class="sk-circle10 sk-circle"></div>
+       <div class="sk-circle11 sk-circle"></div>
+       <div class="sk-circle12 sk-circle"></div>
+    </div>
+</div>
 
-    <h2>Elenco di file</h2>
-    <ul class="file-list">
-      <li><a href="\PW1.4\elaborato\file1.txt" target="_blank">Apri file 1</a></li>
-      <li><a href="\PW1.4\elaborato\file2.txt" target="_blank">Apri file 2</a></li>
-	  <li><a href="\PW1.4\elaborato\file3.txt" target="_blank">Apri file 3</a></li>
-    </ul>
-  </div>
+<!-- navigation section -->
+<section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>	
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Project Work</a>
+		</div>
+	</div>
+</section>
+
+<!-- home section -->
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<!--<h3>WEB DESIGN / WEB DEVELOPMENT / SOCIAL MEDIA</h3>-->
+				<h1>PROJECT WORK</h1>
+				<h3> Viaggiare con i Dati: Digitalizzazione di una Compagnia Ferroviaria Indipendente</h3>
+				<hr>
+				<a href="#work" class="smoothScroll btn btn-danger">Vai all'elaborato</a>
+				<!--a href="#work" class="smoothScroll btn btn-danger">2</a-->
+				<a href="#contact" class="smoothScroll btn btn-default">Contatti</a>
+			</div>
+		</div>
+	</div>		
+</section>
+
+<!-- work section -->
+<section id="work">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="section-title">
+					<strong>Elaborato</strong>
+					<h1 class="heading bold">scarica l'intero progetto <a rel="nofollow" href="..\PW1.4\all\all.zip" target="_parent">dowload all</a></h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
+				<i class="icon-mobile medium-icon"></i>
+					<h3>Sviluppo del modello concettuale</h3>
+					<hr>
+					<p>Diagramma Entity-Relationship [formato pdf] <a rel="nofollow" href="..\PW1.4\elaborato\DiagrammaPW.pdf" target="_parent">dowload</a></p>
+					<p>Diagramma Entity-Relationship [formato MySQL Workbench] <a rel="nofollow" href="..\PW1.4\elaborato\DiagrammaPW.drawio" target="_parent">dowload</a></p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-browser medium-icon"></i>
+					<h3>Implementazione dello schema</h3>
+					<hr>
+					<p>Schema relazione DBMS MySQL [formato pdf] <a rel="nofollow" href="\PW1.4\elaborato\ProjectWork_ER_Schema.pdf" target="_parent">dowload</a></p>
+					<p>Schema relazione DBMS MySQL [formato MySQL Workbench] <a rel="nofollow" href="\PW1.4\elaborato\ProjectWork_ER_Schema.mwb" target="_parent">dowload</a></p>
+			</div>	
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1.5s">
+				<i class="icon-laptop medium-icon"></i>
+					<h3>database</h3>
+					<hr>
+					<p>script creazione database</p>
+					<p>       0 Crea Schema <a rel="nofollow" href="..\PW1.4\MySQL\0_Crea_Schema.sql" target="_new">dowload</a></p>
+					<p>       1 Crea Tabelle <a rel="nofollow" href="..\PW1.4\MySQL\1_Crea_Tabelle.sql" target="_new">dowload</a></p>
+					<p>       2 Crea Funzione <a rel="nofollow" href="..\PW1.4\MySQL\2_Crea_Funzione.sql" target="_new">dowload</a></p>
+					<p>       3 Crea Vista 1 <a rel="nofollow" href="..\PW1.4\MySQL\3_Crea_Vista1.sql" target="_new">dowload</a></p>
+					<p>       4 Crea Vista 2 <a rel="nofollow" href="..\PW1.4\MySQL\4_Crea_Vista2.sql" target="_new">dowload</a></p>
+					<p>       5 Crea Stored <a rel="nofollow" href="..\PW1.4\MySQL\5_Crea_Stored.sql" target="_new">dowload</a></p>
+					<p>       6 Crea Dati <a rel="nofollow" href="..\PW1.4\MySQL\6_Crea_Dati.sql" target="_new">dowload</a></p>
+			</div>
+			<!--<div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="2.0s">
+				<i class="icon-cloud medium-icon"></i>
+					<h3>DOWNLOAD ALL</h3>
+					<hr>
+					<p>scarica l'intero progetto <a rel="nofollow" href="..\PW1.4\all\all.zip" target="_parent">dowload all</a></p>
+			</div>-->
+			<!--div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-compass medium-icon"></i>
+					<h3>MOBILE APP</h3>
+					<hr>
+					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia.</p>
+			</div-->
+			<!--div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="1s">
+				<i class="icon-chat medium-icon"></i>
+					<h3>SOCIAL MEDIA</h3>
+					<hr>
+					<p>You can easily change icons by looking at <a href="https://www.elegantthemes.com/blog/resources/how-to-use-and-embed-an-icon-font-on-your-website" target="_blank">ET Line Icons</a>. Excepteu sunt in culpa qui officia. Duis aute irure dolor in reprehenderit.</p>
+			</div-->
+		</div>
+	</div>
+</section>
+
+
+<!-- contact section -->
+<section id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 text-center">
+				<div class="section-title">
+					<strong>CONTATTI</strong>
+					<!--h1 class="heading bold">CONTATTI</h1-->
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 contact-info">
+				<!--h2 class="heading bold">CONTATTI</h2-->
+				<p>Mi chiamo Sara Caruso, studentessa del corso di laurea triennale in Informatica per le Aziende Digitali, matricola 0312201563.</p>
+<p>Ho scelto di sviluppare il tema 1 – La digitalizzazione dell’impresa, con particolare riferimento alla traccia 4, incentrata sulla progettazione dello schema di persistenza dei dati a supporto dei servizi di un’azienda nel settore dei trasporti.</p>
+<p>Il titolo del mio elaborato è:</p>
+<p>"Viaggiare con i Dati: Digitalizzazione di una Compagnia Ferroviaria Indipendente".</p>
+<p>Il lavoro nasce dalla volontà di unire le competenze acquisite nel percorso universitario con la mia esperienza professionale e personale, applicando i principi della progettazione di basi di dati a un caso d’uso realistico e concreto, ispirato al mondo del trasporto ferroviario.</p>
+				<div class="col-md-6 col-sm-4">
+					<h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
+					<p>email.saracaruso@gmail.com</p>
+				</div>
+				<div class="col-md-6 col-sm-4">
+					<h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
+					<p>+39 3386297663</p>
+				</div>
+			</div>
+			<!--div class="col-md-6 col-sm-12">
+				<form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
+					<div class="col-md-6 col-sm-6">
+						<input type="text" class="form-control" placeholder="Name" name="name">
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<input type="email" class="form-control" placeholder="Email" name="email">
+					</div>
+					<div class="col-md-12 col-sm-12">
+						<textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+					</div>
+					<div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
+						<input type="submit" class="form-control" value="SEND MESSAGE">
+					</div>
+				</form>
+			</div-->
+		</div>
+	</div>
+</section>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright © Digital Team HTML5 Template | Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a></p>
+				<hr>
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
 </body>
 </html>
