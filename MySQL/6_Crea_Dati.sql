@@ -15,10 +15,10 @@ VALUES ('Ordinario', NULL, 0,1),
 -- Treni
 delete from PW_TREN_Treni;
 INSERT INTO PW_TREN_Treni (TREN_modello, TREN_Numero,TREN_ID)
-VALUES ('FRECCIA ROSSA 1000', '9568',1),
-       ('FRECCIA ROSSA 1000', '9569',2),
-       ('FRECCIA ROSSA 500',  '9584',3),
-       ('FRECCIA ROSSA 500',  '9585',4);
+VALUES ('FRECCIA GIALLA 1000', '9568',1),
+       ('FRECCIA GIALLA 1000', '9569',2),
+       ('FRECCIA GIALLA 500',  '9584',3),
+       ('FRECCIA GIALLA 500',  '9585',4);
 
 -- Classi
 delete from PW_CLAS_Classi;
