@@ -1,3 +1,8 @@
+# Questo script popola il database con un insieme minimo di dati di esempio, 
+# sufficienti a verificare il corretto funzionamento delle viste, delle funzioni e delle stored procedure sviluppate.
+# I valori inseriti non rappresentano dati reali, ma hanno il solo scopo di facilitare i test 
+# e dimostrare il comportamento delle componenti logiche del sistema
+
 USE project_work;
 
 -- Stati prenotazione
