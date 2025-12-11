@@ -4,6 +4,10 @@ USE project_work;
 delete from PW_STAT_Stati_Prenotazione;
 INSERT INTO PW_STAT_Stati_Prenotazione(STAT_Descrizione,stat_id)
 VALUES ('Confermata',1);
+# Questo script popola il database con un insieme minimo di dati di esempio, 
+# sufficienti a verificare il corretto funzionamento delle viste, delle funzioni e delle stored procedure sviluppate.
+# I valori inseriti non rappresentano dati reali, 
+# ma hanno il solo scopo di facilitare i test e dimostrare il comportamento delle componenti logiche del sistema
 
 -- Tipologie biglietti
 delete from PW_TBIG_Tipologia_Biglietti;
